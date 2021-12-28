@@ -1,15 +1,16 @@
 /* Root */
 :root {
 --main-bg-color: #ffffff;
---social-bg-color:#0072bb;  
-
+--social-bg-color:#0072bb; 
+--max-height-seo-img: 200px; 
+--margin-bottom-height: 200px;
+--font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* || Body */
 body {
     background-color: #d9dcd6;
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 /* || Header */
@@ -84,8 +85,8 @@ p {
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 200px;
+    font-family: var(--font-family);
     background-color: var(--social-bg-color);
     color: var(--main-bg-color);
 }
@@ -93,45 +94,45 @@ p {
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    height: 200px;
+    font-family: var(--font-family);
+    background-color: var(--social-bg-color);
     color: var(--main-bg-color);
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    height: 200px;
+    font-family: var(--font-family);
+    background-color: var(--social-bg-color);
     color: var(--main-bg-color);
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: var(--max-height-seo-img)
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+    max-height: var(--max-height-seo-img)
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+    max-height: var(--max-height-seo-img)
 }
 
 .search-engine-optimization h2 {
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-height)
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-height)
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
-    margin-bottom: 20px;
+    margin-bottom: var(--margin-bottom-height)
     font-size: 36px;
 }
 
@@ -143,7 +144,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font-family);
     background-color: #2589bd;
 }
 
@@ -198,17 +199,17 @@ p {
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--font-family);
     text-align: center;
 }
 
 .footer h2 {
     font-size: 20px;
 }
+
 /* || Mobile Layout */
 @media screen and (max-width: 768px) {
     main,
     nav {
       flex-direction: column;
     }
-    
