@@ -8,13 +8,6 @@
 --margin-bottom: 20px;
 }
 
-img {
-    image-rendering: auto;
-    image-rendering: crisp-edges;
-    image-rendering: pixelated;
-    image-rendering: -webkit-optimize-contrast;
-  }
-
 /* || Body */
 body {
     background-color: var(--bg-color);
@@ -215,10 +208,14 @@ p {
     font-size: 20px;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
 /* || Mobile Layout */
 @media screen and (max-width: 768px) {
-    body,
     main,
     nav {
-      flex-direction: column;
+      flex-direction: auto;
     }
