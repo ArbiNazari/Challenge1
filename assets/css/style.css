@@ -217,6 +217,7 @@ p {
 
 /* || Mobile Layout */
 @media screen and (max-width: 768px) {
+    body,
     main,
     nav {
       flex-direction: column;
