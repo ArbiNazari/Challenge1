@@ -1,37 +1,34 @@
-1. HTML CSS Git Challenge: Code Refactor
-
-Client: Horiseon - Marketing Agency
-
-Task:
-Starter Code needs to be modified - Refactor code to improve clients website without any change to
-meet certain set of standard or impletment a new technology.
-
-Rules to Follow:
-1) Apply the "Scout Rule".
-2) Improve Code for long-term sustanability.
-3) Reward CSS Consoludation - Properties, Selectors and Organization. 
-4) Codebase that follows accessbility standards to improve SEO.
+# Challenge-2-My-Live-Portfolio
+My Live Portfolio - Arbi Nazari
 
 
- Webpage must mee accessibility standards:
- Checkpoints:
+My Experience
 
-GIVEN a webpage meets accessibility standards
+2012-PRESENT: VP of Courtlinked.com, Inc., Nationwide Online Legal Document 
+              Preparation Firm.
 
-WHEN I view the source code.
-THEN I find semantic HTML elements.
-WHEN I view the structure of the HTML elements.
-THEN I find that the elements follow a logical structure independent of styling and positioning.
-WHEN I view the image elements.
-THEN I find accessible alt attribute.s
-WHEN I view the heading attributes.
-THEN they fall in sequential order.
-WHEN I view the title element.
-THEN I find a concise, descriptive title.
+              - preparation of legal documents, case research, court research,
+                public relation, and marketing director.
 
-___________________________________________
+2010-2012:   LiquorLicense.com, Inc., Liquor License Brokerage
 
-Github: https://github.com/ArbiNazari/Challenge1.git
+             - preparation of ABC (alcohol beverage control) documentation,
+               head of marketing, and broker.
+
+2001-2008:  Shegerian & Associates, Inc.,  Labour Law
+
+             - personal assistant to Carnery R. Shegerian, preparation of
+               legal forms, research, court room tech operator.
 
 
-Live Url: https://arbinazari.github.io/Challenge1/
+Education 
+
+2021-PRESENT  UCLA CODING BOOTCAMP
+
+2004-2007     ABRAHAM LINCOLN LAW SCHOOL 
+
+2001-2003     CALIFORNIA STATE UNIVERSITY, LOS ANGELES.!
+
+Live URL: https://arbinazari.github.io/Challenge-2-My-Live-Portfolio/
+
+Github: https://github.com/ArbiNazari/Challenge1
